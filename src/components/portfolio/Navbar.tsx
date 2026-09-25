@@ -64,14 +64,7 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <a
-            href={profile.resumeUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden rounded-full border border-hairline px-3 py-1.5 text-xs text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground sm:inline-block"
-          >
-            CV
-          </a>
+
           <a
             href={profile.resumeUrl}
             target="_blank"
